@@ -21,35 +21,100 @@ h1{
     padding: 0px 0px;
 }
 
-@media (max-width: 414px) {
+/*@media (max-width: 414px) {*/
+/*    .hero-name{*/
+/*        font-size: xx-large;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 414px) {*/
+/*    .hero-name{*/
+/*        font-size: xxx-large;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 280px) {*/
+/*    .hero-name{*/
+/*        font-size: large;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 280px) {*/
+/*    .hero-name{*/
+/*        font-size: xx-large;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 350px) {*/
+/*    .hero-name{*/
+/*        font-size: x-large;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 350px) {*/
+/*    .hero-name{*/
+/*        font-size: x-large;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 200px) {*/
+/*    .hero-name{*/
+/*        font-size: 2vh;*/
+/*    }*/
+/*}*/
+
+/*@media (min-width: 200px) {*/
+/*    .hero-name{*/
+/*        font-size: 2vh;*/
+/*    }*/
+/*}*/
+/*@media (max-width: 230px) {*/
+/*    .hero-name{*/
+/*        font-size: 3vh;*/
+/*    }*/
+/*}*/
+
+@media (min-width: 200px) {
     .hero-name{
-        font-size: xx-large;
+        font-size: 2vh;
+    }
+}
+@media (min-width: 250px) {
+    .hero-name{
+        font-size: 3vh;
+    }
+}
+@media (min-width: 350px) {
+    .hero-name{
+        font-size: 4vh;
+    }
+}
+@media (min-width: 450px) {
+    .hero-name{
+        font-size: 5vh;
+    }
+}
+@media (max-width: 200px) {
+    .hero-name{
+        font-size: 1vh;
     }
 }
 
-@media (min-width: 414px) {
-    .hero-name{
-        font-size: xxx-large;
-    }
-}
-
-@media (max-width: 280px) {
-    .hero-name{
-        font-size: large;
-    }
-}
-
-@media (min-width: 280px) {
-    .hero-name{
-        font-size: xx-large;
-    }
-}
 
 
 .dp{
-    width: 30%;
     border-radius: 10%;
 }
+
+@media (max-width: 450px) {
+    .dp{
+        width: 100%;
+    }
+}
+@media (min-width: 450px) {
+    .dp{
+        width: 50%;
+    }
+}
+
 .dp-sh{
     box-shadow: 1px 1px #00FF00CC;
 }
