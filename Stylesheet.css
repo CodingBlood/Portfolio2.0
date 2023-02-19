@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    background-color: #1b1b1b;
+    color: white;
+}
+h1{
+    font-family: 'Tourney', cursive;
+    color: white;
+}
+.hero-name {
+    text-align: center;
+    font-size: xxx-large;
+}
+.sh{
+    text-shadow: 1px 1px #00FF00;
+}
+.sticky-div {
+    position: sticky;
+    background-color: #1b1b1b;
+    top: 0px;
+    padding: 0px 0px;
+}
+
+@media (max-width: 414px) {
+    .hero-name{
+        font-size: xx-large;
+    }
+}
+
+@media (min-width: 414px) {
+    .hero-name{
+        font-size: xxx-large;
+    }
+}
+
+@media (max-width: 280px) {
+    .hero-name{
+        font-size: large;
+    }
+}
+
+@media (min-width: 280px) {
+    .hero-name{
+        font-size: xx-large;
+    }
+}
+
+
+.dp{
+    width: 30%;
+    border-radius: 10%;
+}
+.dp-sh{
+    box-shadow: 1px 1px #00FF00CC;
+}
+.container{
+    padding-left: 10%;
+    padding-right: 10%;
+}
